@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <script src="https://kit.fontawesome.com/b20687152d.js" crossorigin="anonymous"></script>
+    <title>ToDo list</title>
+</head>
+<body>
+    <div class="main">
+        <h1 class="main__title">Todo List</h1>
+        <div class="main__input-todo">
+            <input type="text" value="" placeholder="What do you need ?" class="input-text" required>
+            <button class="add-item">
+                <i class="fa-regular fa-plus"></i>
+            </button>
+        </div>
+        <div class="main__filtrs">
+            <input type="radio" name="filtr" class="filtr-all" checked>All
+            <input type="radio" name="filtr" class="filtr-todo">Todo
+            <input type="radio" name="filtr" class="filtr-done">Done
+        </div>
+    </div>
+        <div class="todo">
+            <ul class="todo__list"></ul>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
