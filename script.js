@@ -1,4 +1,3 @@
-
 const inputText = $('.input-text')
 const buttonAddTodo = $('.add-item')
 const todoList = $('.todo__list')
